@@ -1,0 +1,29 @@
+
+.row div pre{
+    background-color: red;
+    color: white;
+    text-align: left;
+    height: auto;
+    padding-left: 0;
+    
+}
+.row{
+    text-align: left;
+    position: absolute;
+    left: 0;
+    
+}
+#sub{
+    width: auto;
+    border: 0.2rem solid;
+    background-color: darkblue;
+    color: white;
+    padding-left:1rem;
+    padding-top: 0.5rempx;
+   
+}
+@media all and(max-width:400px){
+    body{
+        font-size:50%;
+    }
+}
